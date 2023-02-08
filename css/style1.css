@@ -1,0 +1,173 @@
+.topic1{
+    background-color: blue;
+    padding: 30px;
+    color:white;   
+}
+
+.div1{
+    position: relative;
+    top: 20px;
+    left: 400px;
+    right: 400px; 
+
+    background-color:rgb(229, 235, 235);
+    padding: 10px;
+    width: 600px;
+    height: 300px;
+    border: 3px dotted black;
+
+}
+#relative{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background:beige;
+    padding: 10px;
+    width: 170px;
+    height: 150px;
+    border: 2px dashed gray;
+}
+
+.box1{
+    position: static;
+    top: 5px;
+    left: 2px;
+    float: left;
+}
+
+.box2{
+    position: relative;
+    top: 70px;
+    left: 70px;
+    float: left;
+ }
+
+.box3{
+    position: static;
+    top: 5px;
+    left: 2px;
+    float: left;
+   }
+
+
+
+   /* Start of Topic-2 */
+   .topic2{
+    background-color: blue;
+    padding: 30px;
+    color:white;   
+}
+
+
+.div2{
+    position: relative;
+    top: 20px;
+    left: 400px;
+    right: 400px; 
+
+    background-color:rgb(229, 235, 235);
+    padding: 10px;
+    width: 600px;
+    height: 300px;
+    border: 3px dotted black;
+
+}
+#absolute{
+    background:beige;
+    padding: 10px;
+    width: 170px;
+    height: 150px;
+    border: 2px dashed gray;
+}
+.box4{
+    position:static;
+    top: 5px;
+    left: 2px;
+    
+    float: left;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    
+}
+
+.box5{
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    float: left;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.box6{
+    position:static;
+    top: 5px;
+    left: 2px;
+    margin-left: 5px;
+    float: left;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* Start of Topic-3  */
+.topic3{
+    background-color: blue;
+    padding: 30px;
+    color:white;   
+}
+
+.div3{
+    position: relative;
+    top: 20px;
+    left: 80px;
+     
+    float: left;
+    background-color:#fff;
+    padding: 10px;
+    width: 600px;
+    height: 300px;
+    border: 1.5px dashed black;
+}
+
+.div4{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    margin-left: 100px;
+
+    float: left;
+    background-color: #fff;
+    padding: 10px;
+    width: 600px;
+    height: 300px;
+    border: 1.5px dashed black;
+}
+
+#float{
+    background:beige;
+    padding: 10px;
+    width: 90px;
+    height: 70px;
+    border: 2px dashed gray;
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.box7{
+    float: right;
+}
+
+
+
+
+
